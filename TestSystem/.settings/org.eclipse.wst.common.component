@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="TestSystem">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="TestSystem-Persistence.jar" deploy-path="/lib" handle="module:/resource/TestSystem-Persistence/TestSystem-Persistence">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="TestSystem-EJB.jar" deploy-path="/" handle="module:/resource/TestSystem-EJB/TestSystem-EJB">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="TestSystem-Web.war" deploy-path="/" handle="module:/resource/TestSystem-Web/TestSystem-Web">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
